@@ -25,6 +25,8 @@ class LoginScreenSuccess(Screen):
         self.manager.transition.direction = "right"
         self.manager.current = "login_screen"
             
+    def get_quote(self, feeling):
+        print(feeling)
         
 class SignUpScreen(Screen):
     def add_user(self, uname, pword):
